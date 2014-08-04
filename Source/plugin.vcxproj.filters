@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{c4c968bb-49b6-4113-b0f9-93b6aefe793e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\amx">
+      <UniqueIdentifier>{1ddb3297-05da-482d-88b2-2f154e6a5166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\sampgdk">
+      <UniqueIdentifier>{384ab9a4-1810-410c-9312-bbb993946255}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plugin.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\amxplugin.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\plugincommon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\amx.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\sclinux.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\a_http.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\a_objects.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\a_players.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\a_samp.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\a_vehicles.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\bool.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\core.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\export.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\interop.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\platform.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\sdk.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\types.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\sampgdk\version.h">
+      <Filter>SDK\sampgdk</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bauer_h.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sampgdk4.lib" />
+  </ItemGroup>
+</Project>

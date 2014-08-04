@@ -7,9 +7,6 @@ SAMP-X-AntiCheat-Plugin
 
 **You can found latest compiled binaries** [here](https://github.com/N-Bauer/SAMP-X-AntiCheat-Plugin/releases/)
 
-## Source Download
-
-**You can download latest source files in [here ](https://github.com/N-Bauer/SAMP-X-AntiCheat-Plugin) or from tabs on top of the page.**
 
 **Relase Version v1.0:**
 

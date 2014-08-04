@@ -185,21 +185,6 @@ if(GetPlayerSpecialAction(playerid) == SPECIAL_ACTION_USEJETPACK)
     return 1;
 }
 }
-/*//Anti Armour Hack
-if(GetPVarInt(playerid, "ArmorProtect") == 0)
-{
-GetPlayerArmour(playerid, Armour);
-if( (int) Armour > 99)
-{
-    SendClientMessage(playerid,-1,"Kikovani ste zbog armour hacka!");
-    //Kick(playerid);
-    return 1;
-}
-if(GetPVarInt(playerid, "ArmorProtect") == 1)
-{
-	SetPVarInt(playerid, "ArmorProtect", 0);
-}
-}*/
 //Anti Health Hack
 if(GetPVarInt(playerid, "HpProtected") == 0)
 {
